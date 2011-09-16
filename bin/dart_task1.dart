@@ -122,5 +122,44 @@ int light=27;
 //NOT !;
 //OR ||;
 bool isItEqual= 5==4; 
-Print(isItEqual);
+print(isItEqual);
+
+
+//AND OPERATOR
+/*T AND T=T;
+T AND F=F;
+F AND T=F;
+F AND F=F; examples*/
+print(2<4 &&5<2);
+print(3>7 &&6>10);
+print(6>3 &&3<5);
+print(4<2 &&5>2);
+
+//OR OPERATOR
+/*T OR T=T
+T OR F=T
+F OR T=T
+F OR F=F examples*/
+
+print(2<4 ||1<2);
+print(4==4 ||4>8);
+print(2==5 ||2==2);
+print(3==8 ||4==1);
+//NOT OPERATOR
+/*T = F;
+F = T; examples*/
+bool isRaining=false;
+if(!isRaining) 
+{
+  print('take an umbrella with you!');
+}
+
+int num5=10;
+if(!(num5>5)){
+  print('The number is not greater than 5.');
+}else{
+  print('the number is greater than 5');
+}
+//the not(!)  operator is not that clear to me
+
 }
