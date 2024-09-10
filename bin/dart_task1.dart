@@ -106,8 +106,7 @@ Within a multiline comment, explain the values that a Boolean variable can hold*
 //explain the difference between the data types discussed so far
 /*the differences betweeen the data types discussed so far is their ability to hold different types of data. e.g
 an integer data can hold a whole numbers, while float data type can hold both whole numbers and decimal numbers.
-similarly a sting data type can hold text or a combination of text and numbers. a boolean variable can hold two 
-possinle values:true or false.etc*/
+similarly a string data type can hold text or a combination of text and numbers. */
 
 //explain the values that a Boolean variable can hold
 /*a boolean variable can hold two possible values:true or false.*/
