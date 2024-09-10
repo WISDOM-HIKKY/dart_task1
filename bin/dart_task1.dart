@@ -8,7 +8,7 @@ Store what the age will be after 1 year in another variable*/
 int age = 28;
 print(age);
 //Store what the age will be after 1 year in another variable
-String next_year_age = "28+1";
+int next_year_age = "28+1";
 print("next_year_age");
 
 
