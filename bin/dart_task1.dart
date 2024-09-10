@@ -54,10 +54,10 @@ String Myname = "OMOWUNMI";
 /*Question 5
 Initialize 2 double variables
 Initialize a variable to hold the sum of the 2 values*/
-double value1=50.7
-double value2=40.0
+double value1=50.7;
+double value2=40.0;
 //Initialize a variable to hold the sum of the 2 values
-double sum= value1 + value2
+double sum= value1 + value2;
 
 /*Question 6
 Declare int num to hold 5, assign 203 to the same variable
@@ -94,7 +94,7 @@ comment are uise to add notes or explanations to the code, making it easier for 
 What type of Operator is +=
 Assign a value to a variable named num. Use the += to add 3 to num
 Showcase an example with *= and /=*/
-//arithemetic operator
+//assignment operator
 int num = 5;
 num +=3;
 print(num);
@@ -102,4 +102,13 @@ print(num);
 /*Question 9
 Within a multiline comment, explain the difference between the data types discussed so far
 Within a multiline comment, explain the values that a Boolean variable can hold*/
+
+//explain the difference between the data types discussed so far
+/*the differences betweeen the data types discussed so far is their ability to hold different types of data. e.g
+an integer data can hold a whole numbers, while float data type can hold both whole numbers and decimal numbers.
+similarly a sting data type can hold text or a combination of text and numbers. a boolean variable can hold two 
+possinle values:true or false.etc*/
+
+//explain the values that a Boolean variable can hold
+/*a boolean variable can hold two possible values:true or false.*/
 }
