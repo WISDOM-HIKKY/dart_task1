@@ -8,8 +8,8 @@ Store what the age will be after 1 year in another variable*/
 int age = 28;
 print(age);
 //Store what the age will be after 1 year in another variable
-int next_year_age = "28+1";
-print("next_year_age");
+int nextYearAge = age+1;
+print(nextYearAge);
 
 
   /*Question 2
@@ -18,14 +18,14 @@ print("next_year_age");
 	Print the price after removing the discount*/
 
   //Create a variable (item price) and assign 29.99.
-double item_price= 29.99;
-print("item_price");
+double itemPrice= 29.99;
+print(itemPrice);
 //Create another variable (discount) and assign value of 5.
 int discount= 5;
 print(discount);
 //Print the price after removing the discount
-string price_after_discount = "item_price - (item_price*discount/100)"; 
-print(price_after_discount);
+double priceAfterDiscount = itemPrice - discount; 
+print(priceAfterDiscount);
 
 /*Question 3
 Declare a variable to hold - Learning Dart is fun
@@ -37,7 +37,7 @@ String quote="Learning dart is fun";
 print(quote);
 //Declare a variable to hold your name with any digit (e.g Oluwaseyifunmi07)
 String name="WISDOM01";
-Print(name);
+print(name);
 //Correct(Debug) this line of code – string first name = John
 String first_name="John";
 
@@ -46,27 +46,28 @@ Assuming we have – int number = 10, create a double variable to hold what the 
 Initialize a variable that stores your name*/
 int number = 10;
 print(number);
-double money = 10.00;
-print(money);
+double value1=number/3;
+print (value1);
 //Initialize a variable that stores your name
 String Myname = "OMOWUNMI";
 
 /*Question 5
 Initialize 2 double variables
 Initialize a variable to hold the sum of the 2 values*/
-double value1=50.7;
-double value2=40.0;
+double sum1=50.7;
+double sum2=40.0;
+
 //Initialize a variable to hold the sum of the 2 values
-double sum= value1 + value2;
+double sum= sum1 + sum2;
 
 /*Question 6
 Declare int num to hold 5, assign 203 to the same variable
 Correct this line of code – int number = 2.9;*/
 
 //Declare int num to hold 5, assign 203 to the same variable
-int num=5;
-int num=203;
-print(num);
+int num1=5;
+int num2=203;
+print(num1,num2);
 //Correct this line of code – int number = 2.9;
 double Number=2.9;
 print(Number);
