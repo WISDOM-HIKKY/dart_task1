@@ -66,11 +66,11 @@ Correct this line of code – int number = 2.9;*/
 
 //Declare int num to hold 5, assign 203 to the same variable
 int num1=5;
-int num2=203;
-print(num1,num2);
+num1=203;
+print(num1);
 //Correct this line of code – int number = 2.9;
-double Number=2.9;
-print(Number);
+double number1=2.9;
+print(number1);
 
 /*Question 7
 Within a multiline comment, Explain the role of main function in dart
@@ -89,7 +89,7 @@ varable names should be descriptive and maeningful.
 variable names should not be the same as any reserved words in dart. */
 
 /*explain the use of comment within your code
-comment are uise to add notes or explanations to the code, making it easier for others and myself to understand the purpose and functionality of the code*/
+comment are use to add notes or explanations to the code, making it easier for others and myself to understand the purpose and functionality of the code*/
 
 /*Question 8
 What type of Operator is +=
@@ -111,4 +111,16 @@ similarly a string data type can hold text or a combination of text and numbers.
 
 //explain the values that a Boolean variable can hold
 /*a boolean variable can hold two possible values:true or false.*/
+
+String myApp= 'high';
+String myAPP="youtube"; 
+int pay= 1000000;
+bool isLoading=true;
+bool isProcessing=false;
+int light=27;
+//AND &&;
+//NOT !;
+//OR ||;
+bool isItEqual= 5==4; 
+Print(isItEqual);
 }
