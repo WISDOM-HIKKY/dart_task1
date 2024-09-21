@@ -5,7 +5,13 @@ int sum1 =12;
 print(sum1);
 int sum2=14;
 print(sum2);
-print(sum1>100 &&sum2>100);
+bool isItGreater=(sum1 + sum2)> 100;
+if (isItGreater) {
+  print("sum1 and sum2 is greater than 100");
+}else{
+  print("sum1 and num2 is less than 100");
+}
+
 
 /*2. Initialize a variable x with a value of 50. Then increase x by 10 using the +=
 assignment operator. Print the new value of x.*/
