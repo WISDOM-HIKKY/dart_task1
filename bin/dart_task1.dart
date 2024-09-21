@@ -160,6 +160,9 @@ if(!(num5>5)){
 }else{
   print('the number is greater than 5');
 }
-//the not(!)  operator is not that clear to me
+// interpolation
+String naMe="hiqmah";
+int agE =40;
+print("my name is $naMe and i am $agE years old");
 
 }
